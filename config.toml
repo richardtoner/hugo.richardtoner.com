@@ -1,3 +1,8 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "http://richardtoner.github.io"
+languageCode = "en-gb"
+title = "Richard Toner"
+
+[params]
+  description = "A Welshy in London"
+  author = "Richard Toner"
+  github = "richardtoner"
