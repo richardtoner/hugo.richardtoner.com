@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Richard Toner</title>
+      <title>Posts on Richard Toner </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
     <link>http://richardtoner.github.io/post/</link>
-    <description>Recent content in Posts on Richard Toner</description>
-    <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 14 Mar 2016 00:15:04 +0000</lastBuildDate>
-    <atom:link href="http://richardtoner.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <updated>Mon, 14 Mar 2016 00:15:04 UTC</updated>
     
     <item>
       <title>Ready... Set... Hugo!</title>
       <link>http://richardtoner.github.io/post/ready-set-hugo/</link>
-      <pubDate>Mon, 14 Mar 2016 00:15:04 +0000</pubDate>
+      <pubDate>Mon, 14 Mar 2016 00:15:04 UTC</pubDate>
       
       <guid>http://richardtoner.github.io/post/ready-set-hugo/</guid>
       <description>
