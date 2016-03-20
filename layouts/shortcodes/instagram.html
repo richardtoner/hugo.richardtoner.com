@@ -1,0 +1,5 @@
+{{ if .IsNamedParams }}
+  {{ (getJSON "https://api.instagram.com/oembed/?url=http://instagr.am/p/" (.Get "id") "&amp;omitscript=" (.Get "omitscript") "&amp;hidecaption=" (.Get "hidecaption") "&amp;maxwidth=" (.Get "maxwidth")).html | safeHTML }}
+{{ else }}
+  {{ (getJSON "https://api.instagram.com/oembed/?url=http://instagr.am/p/" (.Get 0)).html | safeHTML }}
+{{ end }}
