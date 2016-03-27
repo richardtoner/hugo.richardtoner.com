@@ -5,7 +5,7 @@ title = "Ready... Set... Hugo!"
 
 +++
 
-## An Introduction of Sorts
+## An Introduction of Sorts...
 
 Hi! This is my first post and I have already hit the backspace key more times than I have in the whole of 2016 put together... I can tell this is going to be a bit interesting (or really time consuming).
 
