@@ -124,8 +124,7 @@ $ brew tap Homebrew/bundle
 
 &lt;h2 id=&#34;the-like-list:1e57fddae3a8b07c0cbe5040cedf66da&#34;&gt;The Like List&lt;/h2&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Food:&lt;/strong&gt; Rossa Pistachio Gelato&lt;/p&gt;
+&lt;h3 id=&#34;food-rossa-pistachio-gelato:1e57fddae3a8b07c0cbe5040cedf66da&#34;&gt;&lt;strong&gt;Food:&lt;/strong&gt; Rossa Pistachio Gelato&lt;/h3&gt;
 
 &lt;p&gt;My newfound obsession with pistachio flavoured ice cream has drifted in to dangerous territory with the discovery of Rossa&amp;rsquo;s pistachio gelato&amp;hellip; Our local Spar supermarket in Walthamstow stocks it and it may very well be the eighth wonder of the world. Their website unfortunately isn&amp;rsquo;t the most informative in listing stockists, but if you like pistachio ice cream then my hyperbole should be enough to encourage you to sniff it out! Find out more over at &lt;a href=&#34;http://www.rossaicecream.com/&#34;&gt;www.rossaicecream.com&lt;/a&gt;.&lt;/p&gt;
 
@@ -136,15 +135,18 @@ $ brew tap Homebrew/bundle
     
     
 &lt;/figure&gt;
-&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Music:&lt;/strong&gt; The Menzingers - On The Impossible Past&lt;/p&gt;
+
+&lt;h3 id=&#34;music-the-menzingers-on-the-impossible-past:1e57fddae3a8b07c0cbe5040cedf66da&#34;&gt;&lt;strong&gt;Music:&lt;/strong&gt; The Menzingers - On The Impossible Past&lt;/h3&gt;
 
 &lt;p&gt;I&amp;rsquo;m still a bit confused by how I&amp;rsquo;ve slept on this album for the last 4 years. &lt;a href=&#34;http://absolutepunk.net/&#34;&gt;Absolutepunk.net&lt;/a&gt; is undoubtedly my most-visited music website and this album was given the highest praise by being announced as the staff&amp;rsquo;s &lt;a href=&#34;http://www.absolutepunk.net/showthread.php?t=2971122&#34;&gt;#1 album of 2012&lt;/a&gt;. It is deserving of that praise as well, as it is a glorious nostalgia-tinged collection of punk anthems that go against the grain of conventional song structures and vocal deliveries. See what all the fuss is about for yourself by hitting play below:&lt;/p&gt;
 
-&lt;iframe src=&#34;https://embed.spotify.com/?uri=spotify%3Aalbum%3A4Jh3PDPicP3QwWpktQS7Yh&#34; width=&#34;300&#34; height=&#34;380&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34;&gt;&lt;/iframe&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Travel:&lt;/strong&gt; St George&amp;rsquo;s Gardens, London&lt;/p&gt;
+  &lt;iframe src=&#34;https://embed.spotify.com/?uri=spotify%3aalbum%3a4Jh3PDPicP3QwWpktQS7Yh&#34; width=&#34;250&#34; height=&#34;80&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34;&gt;&lt;/iframe&gt;
+
+
+
+&lt;h3 id=&#34;travel-st-george-s-gardens-london:1e57fddae3a8b07c0cbe5040cedf66da&#34;&gt;&lt;strong&gt;Travel:&lt;/strong&gt; St George&amp;rsquo;s Gardens, London&lt;/h3&gt;
 
 &lt;p&gt;In 2002 Time Out magazine declared St George&amp;rsquo;s Gardens one of London&amp;rsquo;s best kept secrets. It is now 2016 and it is still one of London&amp;rsquo;s best kept secrets. I altered my commute to work to try and introduce some green space on my walk from Kings Cross to Holborn, and this is certainly the highlight of my morning. It is only small, but it makes up for size with beauty, especially when you catch it on a sunny morning. Find it &lt;a href=&#34;https://goo.gl/maps/XWF6BeWSKtM2&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
@@ -155,8 +157,7 @@ $ brew tap Homebrew/bundle
     
     
 &lt;/figure&gt;
-&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -318,8 +319,7 @@ title = &amp;quot;Richard Toner&amp;quot;
 
 &lt;p&gt;So here it is:&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Food:&lt;/strong&gt; Olia Hercules&lt;/p&gt;
+&lt;h3 id=&#34;food-olia-hercules:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;&lt;strong&gt;Food:&lt;/strong&gt; Olia Hercules&lt;/h3&gt;
 
 &lt;p&gt;A highly talented Ukrainian chef with a love for everything fermented. We were fortunate to attend her event &lt;strong&gt;Fermented &amp;amp; Wild&lt;/strong&gt;, a celebration feast of fermented food and natural wines. I would not be surprised if they organised more of these in the future, so it&amp;rsquo;s worth giving her a follow on Instagram and keeping your eyes peeled if you&amp;rsquo;re privy to pickles!&lt;/p&gt;
 
@@ -327,9 +327,9 @@ title = &amp;quot;Richard Toner&amp;quot;
   &lt;blockquote class=&#34;instagram-media&#34; data-instgrm-version=&#34;6&#34; style=&#34; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&#34;&gt;&lt;div style=&#34;padding:8px;&#34;&gt; &lt;div style=&#34; background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;&#34;&gt; &lt;div style=&#34; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=&#34; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&#34;&gt;&lt;a href=&#34;https://www.instagram.com/p/BCkte9bFKqy/&#34; style=&#34; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&#34; target=&#34;_blank&#34;&gt;A photo posted by Olia Hercules (@oliahercules)&lt;/a&gt; on &lt;time style=&#34; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&#34; datetime=&#34;2016-03-05T13:49:08+00:00&#34;&gt;Mar 5, 2016 at 5:49am PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
 &lt;script async defer src=&#34;//platform.instagram.com/en_US/embeds.js&#34;&gt;&lt;/script&gt;
 
-&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Games:&lt;/strong&gt; Rocket League&lt;/p&gt;
+
+&lt;h3 id=&#34;games-rocket-league:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;&lt;strong&gt;Games:&lt;/strong&gt; Rocket League&lt;/h3&gt;
 
 &lt;p&gt;Remember that episode of Top Gear where they played football with cars and it looked like the best thing ever? Well if you throw in some insane physics, a spherical bomb and turbo-powered cars, you are left with Rocket League. It is as awesome as it sounds. Check out the madness in the video below.&lt;/p&gt;
 
@@ -337,18 +337,20 @@ title = &amp;quot;Richard Toner&amp;quot;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/2C9LxNlzeUM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
  &lt;/div&gt;
-&lt;/p&gt;&lt;/li&gt;
+&lt;/p&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Music:&lt;/strong&gt; yndi halda - Under Summer&lt;/p&gt;
+&lt;h3 id=&#34;music-yndi-halda-under-summer:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;&lt;strong&gt;Music:&lt;/strong&gt; yndi halda - Under Summer&lt;/h3&gt;
 
 &lt;p&gt;The wait is over! The long-awaited sophomore release from yndi halda has been 10 years in the making and holds true to the theory that good things come to those that wait. Under Summer is an hour-long musical journey over 4 tracks of beautiful introspective movements that swell to tidal wave-like crescendos. Prepare to get swept away and hit play on the Spotify player below:&lt;/p&gt;
 
-&lt;iframe src=&#34;https://embed.spotify.com/?uri=spotify%3Aalbum%3A0ECiAUBuKpQ6sKaKUFFtlu&#34; width=&#34;300&#34; height=&#34;380&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34;&gt;&lt;/iframe&gt;&lt;/li&gt;
+&lt;p&gt;
+  &lt;iframe src=&#34;https://embed.spotify.com/?uri=spotify%3aalbum%3a0ECiAUBuKpQ6sKaKUFFtlu&#34; width=&#34;250&#34; height=&#34;80&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34;&gt;&lt;/iframe&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Travel:&lt;/strong&gt; Bristol&lt;/p&gt;
+&lt;/p&gt;
 
-&lt;p&gt;What better way to enjoy an album that you&amp;rsquo;ve been anticipating for a decade than to take a walk through the city that you first remember falling in love with the band? Bristol has carved a very special place in my heart from the University days, and it was great to experience something so new in a place so familiar.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3 id=&#34;travel-bristol:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;&lt;strong&gt;Travel:&lt;/strong&gt; Bristol&lt;/h3&gt;
+
+&lt;p&gt;What better way to enjoy an album that you&amp;rsquo;ve been anticipating for a decade than to take a walk through the city that you first remember falling in love with the band? Bristol has carved a very special place in my heart from the University days, and it was great to experience something so new in a place so familiar.&lt;/p&gt;
 </description>
     </item>
     
