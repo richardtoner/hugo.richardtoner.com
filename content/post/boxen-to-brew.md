@@ -1,6 +1,6 @@
 +++
-date = "2016-03-26T11:28:39Z"
-draft = true
+date = "2016-03-28T11:30:26+01:00"
+draft = false
 title = "Boxen to Brew"
 
 +++
@@ -87,7 +87,7 @@ That's it! Everything in your Brewfile should be installed and you're up and run
 
 The Brewfile I created above serves more as a personal manifest than a project based one, so the next step is to create a Brewfile for each project.
 
-You can also remove a few of the manual tasks by rolling all of those terminal commands in to a shell script, much like what I've done with my [setup](https://github.com/richardtoner/dotfiles/blob/master/bin/setup) script in my personal dotfiles repository.
+You can also remove a few of the manual tasks by rolling all of those terminal commands in to a shell script, much like what I've done with my [setup script in my personal dotfiles repository](https://github.com/richardtoner/dotfiles/blob/master/bin/setup).
 
 This approach has worked wonders for our development team in the last few months and installation times on new workstations are as little as a couple of minutes, as we avoid installing all of the additional packages and applications that Boxen enforced by default.
 
