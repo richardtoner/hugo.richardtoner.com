@@ -1,6 +1,7 @@
 baseurl = "http://richardtoner.github.io"
 languageCode = "en-gb"
 title = "Richard Toner"
+theme = "hugo-uno"
 
 [params]
   description = "A Welshy in London"
