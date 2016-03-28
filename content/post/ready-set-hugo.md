@@ -136,24 +136,24 @@ Ryan runs a conceptual music subscription service called **"Atlas"**, where he r
 
 So here it is:
 
--   **Food:** Olia Hercules
+### **Food:** Olia Hercules
 
-    A highly talented Ukrainian chef with a love for everything fermented. We were fortunate to attend her event **Fermented & Wild**, a celebration feast of fermented food and natural wines. I would not be surprised if they organised more of these in the future, so it's worth giving her a follow on Instagram and keeping your eyes peeled if you're privy to pickles!
+A highly talented Ukrainian chef with a love for everything fermented. We were fortunate to attend her event **Fermented & Wild**, a celebration feast of fermented food and natural wines. I would not be surprised if they organised more of these in the future, so it's worth giving her a follow on Instagram and keeping your eyes peeled if you're privy to pickles!
 
-    {{< instagram id="BCkte9bFKqy" hidecaption="true" >}}
+{{< instagram id="BCkte9bFKqy" hidecaption="true" >}}
 
--   **Games:** Rocket League
+### **Games:** Rocket League
 
-    Remember that episode of Top Gear where they played football with cars and it looked like the best thing ever? Well if you throw in some insane physics, a spherical bomb and turbo-powered cars, you are left with Rocket League. It is as awesome as it sounds. Check out the madness in the video below.
+Remember that episode of Top Gear where they played football with cars and it looked like the best thing ever? Well if you throw in some insane physics, a spherical bomb and turbo-powered cars, you are left with Rocket League. It is as awesome as it sounds. Check out the madness in the video below.
 
-    {{< youtube 2C9LxNlzeUM >}}
+{{< youtube 2C9LxNlzeUM >}}
 
--   **Music:** yndi halda - Under Summer
+### **Music:** yndi halda - Under Summer
 
-    The wait is over! The long-awaited sophomore release from yndi halda has been 10 years in the making and holds true to the theory that good things come to those that wait. Under Summer is an hour-long musical journey over 4 tracks of beautiful introspective movements that swell to tidal wave-like crescendos. Prepare to get swept away and hit play on the Spotify player below:
+The wait is over! The long-awaited sophomore release from yndi halda has been 10 years in the making and holds true to the theory that good things come to those that wait. Under Summer is an hour-long musical journey over 4 tracks of beautiful introspective movements that swell to tidal wave-like crescendos. Prepare to get swept away and hit play on the Spotify player below:
 
-    <iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A0ECiAUBuKpQ6sKaKUFFtlu" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+{{< spotify "spotify:album:0ECiAUBuKpQ6sKaKUFFtlu" >}}
 
--   **Travel:** Bristol
+### **Travel:** Bristol
 
-    What better way to enjoy an album that you've been anticipating for a decade than to take a walk through the city that you first remember falling in love with the band? Bristol has carved a very special place in my heart from the University days, and it was great to experience something so new in a place so familiar.
+What better way to enjoy an album that you've been anticipating for a decade than to take a walk through the city that you first remember falling in love with the band? Bristol has carved a very special place in my heart from the University days, and it was great to experience something so new in a place so familiar.

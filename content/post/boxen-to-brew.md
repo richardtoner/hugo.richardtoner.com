@@ -97,20 +97,20 @@ It is also incredibly rewarding to know that any new dependencies will be instal
 
 ## The Like List
 
--   **Food:** Rossa Pistachio Gelato
+### **Food:** Rossa Pistachio Gelato
 
-    My newfound obsession with pistachio flavoured ice cream has drifted in to dangerous territory with the discovery of Rossa's pistachio gelato... Our local Spar supermarket in Walthamstow stocks it and it may very well be the eighth wonder of the world. Their website unfortunately isn't the most informative in listing stockists, but if you like pistachio ice cream then my hyperbole should be enough to encourage you to sniff it out! Find out more over at [www.rossaicecream.com](http://www.rossaicecream.com/).
+My newfound obsession with pistachio flavoured ice cream has drifted in to dangerous territory with the discovery of Rossa's pistachio gelato... Our local Spar supermarket in Walthamstow stocks it and it may very well be the eighth wonder of the world. Their website unfortunately isn't the most informative in listing stockists, but if you like pistachio ice cream then my hyperbole should be enough to encourage you to sniff it out! Find out more over at [www.rossaicecream.com](http://www.rossaicecream.com/).
 
-    {{< figure src="/images/boxen-to-brew/rossa-gelato.jpg" alt="Rossa Gelato" >}}
+{{< figure src="/images/boxen-to-brew/rossa-gelato.jpg" alt="Rossa Gelato" >}}
 
--   **Music:** The Menzingers - On The Impossible Past
+### **Music:** The Menzingers - On The Impossible Past
 
-    I'm still a bit confused by how I've slept on this album for the last 4 years. [Absolutepunk.net](http://absolutepunk.net/) is undoubtedly my most-visited music website and this album was given the highest praise by being announced as the staff's [#1 album of 2012](http://www.absolutepunk.net/showthread.php?t=2971122). It is deserving of that praise as well, as it is a glorious nostalgia-tinged collection of punk anthems that go against the grain of conventional song structures and vocal deliveries. See what all the fuss is about for yourself by hitting play below:
+I'm still a bit confused by how I've slept on this album for the last 4 years. [Absolutepunk.net](http://absolutepunk.net/) is undoubtedly my most-visited music website and this album was given the highest praise by being announced as the staff's [#1 album of 2012](http://www.absolutepunk.net/showthread.php?t=2971122). It is deserving of that praise as well, as it is a glorious nostalgia-tinged collection of punk anthems that go against the grain of conventional song structures and vocal deliveries. See what all the fuss is about for yourself by hitting play below:
 
-    <iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A4Jh3PDPicP3QwWpktQS7Yh" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+{{< spotify "spotify:album:4Jh3PDPicP3QwWpktQS7Yh" >}}
 
--   **Travel:** St George's Gardens, London
+### **Travel:** St George's Gardens, London
 
-    In 2002 Time Out magazine declared St George's Gardens one of London's best kept secrets. It is now 2016 and it is still one of London's best kept secrets. I altered my commute to work to try and introduce some green space on my walk from Kings Cross to Holborn, and this is certainly the highlight of my morning. It is only small, but it makes up for size with beauty, especially when you catch it on a sunny morning. Find it [here](https://goo.gl/maps/XWF6BeWSKtM2).
+In 2002 Time Out magazine declared St George's Gardens one of London's best kept secrets. It is now 2016 and it is still one of London's best kept secrets. I altered my commute to work to try and introduce some green space on my walk from Kings Cross to Holborn, and this is certainly the highlight of my morning. It is only small, but it makes up for size with beauty, especially when you catch it on a sunny morning. Find it [here](https://goo.gl/maps/XWF6BeWSKtM2).
 
-    {{< figure src="/images/boxen-to-brew/st-georges-gardens-london.jpg" alt="St George's Gardens" >}}
+{{< figure src="/images/boxen-to-brew/st-georges-gardens-london.jpg" alt="St George's Gardens" >}}

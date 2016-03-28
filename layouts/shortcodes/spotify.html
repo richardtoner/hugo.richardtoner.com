@@ -1,0 +1,11 @@
+{{ if .IsNamedParams }}
+  <iframe
+    src="https://embed.spotify.com/?uri={{ (.Get "uri") }}"
+    width="{{ if .Get "width" }}{{ (.Get "width") }}{{ else }}250{{ end }}"
+    height="{{ if .Get "height" }}{{ (.Get "height") }}{{ else }}80{{ end }}"
+    frameborder="{{ if .Get "frameborder" }}{{ (.Get "frameborder") }}{{ else }}0{{ end }}"
+    allowtransparency="{{ if .Get "allowtransparency" }}{{ (.Get "allowtransparency") }}{{ else }}true{{ end }}">
+  </iframe>
+{{ else }}
+  <iframe src="https://embed.spotify.com/?uri={{ (.Get 0) }}" width="250" height="80" frameborder="0" allowtransparency="true"></iframe>
+{{ end }}
