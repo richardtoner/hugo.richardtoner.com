@@ -2,9 +2,9 @@
 Categories = ["Development", "GoLang"]
 Description = ""
 Tags = ["Development", "golang"]
-date = "2016-05-01T15:44:53+01:00"
+date = "2016-05-02T19:40:49+01:00"
 menu = "main"
-draft = true
+draft = false
 title = "April 2016 Mixtape: How Not to Descend Stairs"
 
 +++
