@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Boxen on Richard Toner </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://richardtoner.github.io/tags/boxen/</link>
+    <language>en-gb</language>
+    
+    
+    <updated>Mon, 28 Mar 2016 11:30:26 BST</updated>
+    
+    <item>
+      <title>Boxen to Brew</title>
+      <link>http://richardtoner.github.io/post/boxen-to-brew/</link>
+      <pubDate>Mon, 28 Mar 2016 11:30:26 BST</pubDate>
+      
+      <guid>http://richardtoner.github.io/post/boxen-to-brew/</guid>
+      <description>
+
+&lt;h2 id=&#34;automate-all-the-things:1e57fddae3a8b07c0cbe5040cedf66da&#34;&gt;Automate All The Things!&lt;/h2&gt;
+
+&lt;p&gt;One of the most painful tasks in development can be configuring a workstation by hand. It&amp;rsquo;s funny how reading this back seems utterly ridiculous, yet little over a year ago this is exactly what I was doing. This became more complex and time consuming as our development team grew in size, so we decided to sort it out in a few key steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;All developers to use the same workstations (MacBook Pros).&lt;/li&gt;
+&lt;li&gt;All workstations to be kept up-to-date with the latest OS X releases.&lt;/li&gt;
+&lt;li&gt;All dependencies for company projects to be installed using Boxen.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;what-s-in-the-boxen:1e57fddae3a8b07c0cbe5040cedf66da&#34;&gt;What&amp;rsquo;s in the Boxen!?&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/boxen/our-boxen#our-boxen&#34;&gt;Boxen&lt;/a&gt; is an open-source tool for automating and managing Macs. It was developed by GitHub, primarily as a tool for themselves to get new starters up and running in about 30 minutes with a single command.&lt;/p&gt;
+
+&lt;p&gt;We first adopted Boxen in early 2015, but it has been kicking around since &lt;a href=&#34;https://github.com/blog/1345-introducing-boxen&#34;&gt;February 2013 when it was open sourced&lt;/a&gt;. It proved to be exactly what we needed to align our workstations, and we found it easy enough to customise using Puppet for our own project and personal manifests.&lt;/p&gt;
+
+&lt;p&gt;The first few uses were magical. It felt so good to just run a single command and come back 30 minutes later to a fully configured workstation. However, the cracks began to show as new versions of OS X were introduced. With so many dependencies on so many open source Puppet modules, it was inevitable that some of these dependencies would be less supported than others. The builds began failing and I found myself spending more time fixing Boxen than enjoying the benefits of it.&lt;/p&gt;
+
+&lt;p&gt;It also didn&amp;rsquo;t inspire confidence to allow my team to keep using a tool that &lt;a href=&#34;https://github.com/boxen/our-boxen/issues/783&#34;&gt;even the maintainers had abandoned ship on&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://richardtoner.github.io/images/boxen-to-brew/whats-in-the-box.gif&#34; alt=&#34;What&amp;#39;s in the Box(en)!?&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;It was time for a change.&lt;/p&gt;
+
+&lt;h2 id=&#34;boxen-be-gone:1e57fddae3a8b07c0cbe5040cedf66da&#34;&gt;Boxen Be Gone!&lt;/h2&gt;
+
+&lt;p&gt;There were no obvious contenders to replace Boxen when I first began the hunt for an alternative. It was only when I took a step back and looked at the component parts of Boxen that I realised I was already sitting on a potential replacement. Boxen uses &lt;a href=&#34;http://brew.sh/&#34;&gt;Homebrew&lt;/a&gt; as its primary package manager and the &lt;a href=&#34;https://caskroom.github.io/&#34;&gt;Homebrew Cask&lt;/a&gt; extension for most application installations. Although Puppet was the conductor, orchestrating all of the configuration tasks, it seemed like Homebrew and Homebrew Cask were the ones doing the heavy lifting.&lt;/p&gt;
+
+&lt;p&gt;So I found me a brand new conductor in the &lt;a href=&#34;https://github.com/Homebrew/homebrew-bundle&#34;&gt;Homebrew Bundle&lt;/a&gt; extension.&lt;/p&gt;
+
+&lt;p&gt;Homebrew Bundle allows you to create a Brewfile, where you can list all of your dependencies, and just requires you to run a single command to get Homebrew to go and download them all.&lt;/p&gt;
+
+&lt;p&gt;Once I had our replacement lined up, it was time to bid farewell to Boxen.&lt;/p&gt;
+
+&lt;h2 id=&#34;nuke:1e57fddae3a8b07c0cbe5040cedf66da&#34;&gt;Nuke&lt;/h2&gt;
+
+&lt;p&gt;It’s best to take a note of anything that was installed by Boxen and use this to distinguish which packages and applications you’ll need when you make the jump to Homebrew.&lt;/p&gt;
+
+&lt;p&gt;To uninstall (almost) everything Boxen-related you need to run the following in your terminal:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ cd /opt/boxen/repo; ./script/nuke —all —force
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Amazingly the flags &lt;code&gt;—all&lt;/code&gt; and &lt;code&gt;—force&lt;/code&gt; don’t actually remove everything that was installed by Boxen so you may have to go sniffing around for any leftovers.&lt;/p&gt;
+
+&lt;h2 id=&#34;something-tasty-is-brewing:1e57fddae3a8b07c0cbe5040cedf66da&#34;&gt;Something Tasty Is Brewing&lt;/h2&gt;
+
+&lt;p&gt;Remember that bit where I said you should take note of anything that was installed by Boxen? This is where that comes in handy! My list of requirements as a web developer was as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Atom&lt;/li&gt;
+&lt;li&gt;Bash completions for Git / Vagrant&lt;/li&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;li&gt;MySQL Workbench&lt;/li&gt;
+&lt;li&gt;Node 0.12&lt;/li&gt;
+&lt;li&gt;Vagrant&lt;/li&gt;
+&lt;li&gt;VirtualBox&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The next step is to translate this list in to a Brewfile. This is essentially a list of Homebrew commands, so you can easily work these out by just reading up on how you would individually install each of these packages. Here is what my list translates to:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;tap &#39;caskroom/cask&#39;
+tap &#39;homebrew/completions&#39;
+brew &#39;bash-completion&#39;
+brew &#39;git&#39;
+brew &#39;homebrew/completions/vagrant-completion&#39;
+brew &#39;homebrew/versions/node012&#39;
+cask &#39;atom&#39;
+cask &#39;mysqlworkbench&#39;
+cask &#39;vagrant&#39;
+cask &#39;virtualbox&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To be able to run this file we need to first install Homebrew and the Homebrew Bundle extension, which can be done by running the following in your terminal:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ /usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;
+$ brew tap Homebrew/bundle
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You then just need to navigate to the directory that your Brewfile is sitting in and run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ brew bundle
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That&amp;rsquo;s it! Everything in your Brewfile should be installed and you&amp;rsquo;re up and running on a new development workstation.&lt;/p&gt;
+
+&lt;h2 id=&#34;mo-automation-mo-fun:1e57fddae3a8b07c0cbe5040cedf66da&#34;&gt;Mo&amp;rsquo; Automation, Mo&amp;rsquo; Fun&lt;/h2&gt;
+
+&lt;p&gt;The Brewfile I created above serves more as a personal manifest than a project based one, so the next step is to create a Brewfile for each project.&lt;/p&gt;
+
+&lt;p&gt;You can also remove a few of the manual tasks by rolling all of those terminal commands in to a shell script, much like what I&amp;rsquo;ve done with my &lt;a href=&#34;https://github.com/richardtoner/dotfiles/blob/master/bin/setup&#34;&gt;setup script in my personal dotfiles repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This approach has worked wonders for our development team in the last few months and installation times on new workstations are as little as a couple of minutes, as we avoid installing all of the additional packages and applications that Boxen enforced by default.&lt;/p&gt;
+
+&lt;p&gt;It is also incredibly rewarding to know that any new dependencies will be installed without having to cross my fingers that Boxen will be able to cope. Homebrew always copes, and that fact alone makes Homebrew a winner in my books.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;the-like-list:1e57fddae3a8b07c0cbe5040cedf66da&#34;&gt;The Like List&lt;/h2&gt;
+
+&lt;h3 id=&#34;food-rossa-pistachio-gelato:1e57fddae3a8b07c0cbe5040cedf66da&#34;&gt;&lt;strong&gt;Food:&lt;/strong&gt; Rossa Pistachio Gelato&lt;/h3&gt;
+
+&lt;p&gt;My newfound obsession with pistachio flavoured ice cream has drifted in to dangerous territory with the discovery of Rossa&amp;rsquo;s pistachio gelato&amp;hellip; Our local Spar supermarket in Walthamstow stocks it and it may very well be the eighth wonder of the world. Their website unfortunately isn&amp;rsquo;t the most informative in listing stockists, but if you like pistachio ice cream then my hyperbole should be enough to encourage you to sniff it out! Find out more over at &lt;a href=&#34;http://www.rossaicecream.com/&#34;&gt;www.rossaicecream.com&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://richardtoner.github.io/images/boxen-to-brew/rossa-gelato.jpg&#34; alt=&#34;Rossa Gelato&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;h3 id=&#34;music-the-menzingers-on-the-impossible-past:1e57fddae3a8b07c0cbe5040cedf66da&#34;&gt;&lt;strong&gt;Music:&lt;/strong&gt; The Menzingers - On The Impossible Past&lt;/h3&gt;
+
+&lt;p&gt;I&amp;rsquo;m still a bit confused by how I&amp;rsquo;ve slept on this album for the last 4 years. &lt;a href=&#34;http://absolutepunk.net/&#34;&gt;Absolutepunk.net&lt;/a&gt; is undoubtedly my most-visited music website and this album was given the highest praise by being announced as the staff&amp;rsquo;s &lt;a href=&#34;http://www.absolutepunk.net/showthread.php?t=2971122&#34;&gt;#1 album of 2012&lt;/a&gt;. It is deserving of that praise as well, as it is a glorious nostalgia-tinged collection of punk anthems that go against the grain of conventional song structures and vocal deliveries. See what all the fuss is about for yourself by hitting play below:&lt;/p&gt;
+
+
+  &lt;iframe src=&#34;https://embed.spotify.com/?uri=spotify%3aalbum%3a4Jh3PDPicP3QwWpktQS7Yh&#34; width=&#34;250&#34; height=&#34;80&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34;&gt;&lt;/iframe&gt;
+
+
+
+&lt;h3 id=&#34;travel-st-george-s-gardens-london:1e57fddae3a8b07c0cbe5040cedf66da&#34;&gt;&lt;strong&gt;Travel:&lt;/strong&gt; St George&amp;rsquo;s Gardens, London&lt;/h3&gt;
+
+&lt;p&gt;In 2002 Time Out magazine declared St George&amp;rsquo;s Gardens one of London&amp;rsquo;s best kept secrets. It is now 2016 and it is still one of London&amp;rsquo;s best kept secrets. I altered my commute to work to try and introduce some green space on my walk from Kings Cross to Holborn, and this is certainly the highlight of my morning. It is only small, but it makes up for size with beauty, especially when you catch it on a sunny morning. Find it &lt;a href=&#34;https://goo.gl/maps/XWF6BeWSKtM2&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://richardtoner.github.io/images/boxen-to-brew/st-georges-gardens-london.jpg&#34; alt=&#34;St George&amp;#39;s Gardens&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

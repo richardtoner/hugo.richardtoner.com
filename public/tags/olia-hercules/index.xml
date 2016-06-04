@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Olia Hercules on Richard Toner </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://richardtoner.github.io/tags/olia-hercules/</link>
+    <language>en-gb</language>
+    
+    
+    <updated>Mon, 14 Mar 2016 00:15:04 UTC</updated>
+    
+    <item>
+      <title>Ready... Set... Hugo!</title>
+      <link>http://richardtoner.github.io/post/ready-set-hugo/</link>
+      <pubDate>Mon, 14 Mar 2016 00:15:04 UTC</pubDate>
+      
+      <guid>http://richardtoner.github.io/post/ready-set-hugo/</guid>
+      <description>
+
+&lt;h2 id=&#34;an-introduction-of-sorts:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;An Introduction of Sorts&amp;hellip;&lt;/h2&gt;
+
+&lt;p&gt;Hi! This is my first post and I have already hit the backspace key more times than I have in the whole of 2016 put together&amp;hellip; I can tell this is going to be a bit interesting (or really time consuming).&lt;/p&gt;
+
+&lt;p&gt;The intention of this website is to act as a place for me to ramble on about the things that I like.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I like &lt;strong&gt;code&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;I like &lt;strong&gt;food&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;I like &lt;strong&gt;games&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;I like &lt;strong&gt;lists&lt;/strong&gt; (especially alphabetically ordered ones like this one)&lt;/li&gt;
+&lt;li&gt;I like &lt;strong&gt;movies&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;I like &lt;strong&gt;music&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;I like &lt;strong&gt;travel&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With this being the first post, I&amp;rsquo;ll be dipping into the first one in that list and talk a bit about how I made this website.&lt;/p&gt;
+
+&lt;h2 id=&#34;hugo:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;Hugo!&lt;/h2&gt;
+
+&lt;p&gt;This website is made using &lt;a href=&#34;http://gethugo.io&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I was first introduced to Hugo a few months back when I was checking out the personal website of a very promising applicant to join our development team at &lt;a href=&#34;https://www.snapfashion.co.uk&#34;&gt;Snap Fashion&lt;/a&gt;. I&amp;rsquo;m always interested in seeing what tools developers use to build their personal websites, as I feel that it is a big indication of what interests them the most. There was something about her website that inspired me to want to do the same for myself - so credit where credit is due: Thanks &lt;a href=&#34;https://purplebooth.co.uk&#34;&gt;PurpleBooth&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h2 id=&#34;hugo-1:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;Hugo?&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike other systems which dynamically build a page every time a visitor requests one, Hugo does the building when you create your content. Since websites are viewed far more often than they are edited, Hugo is optimized for website viewing while providing a great writing experience.&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash; &lt;cite&gt;&lt;a href=&#34;http://gethugo.io/overview/introduction/#what-is-hugo&#34;&gt;The Brainy Bunch Behind Hugo&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Sounds cool, right? It is. And it is ridiculously easy to pick up.&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-started:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;Getting Started&lt;/h2&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://gethugo.io/overview/quickstart&#34;&gt;Hugo docs&lt;/a&gt; have everything you need to get started, but I&amp;rsquo;ll talk through what I did to show you exactly how easy it was for me to get to the point of publishing this post on a live website.&lt;/p&gt;
+
+&lt;h3 id=&#34;step-1-installation:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;Step 1: Installation&lt;/h3&gt;
+
+&lt;p&gt;I installed with Homebrew by running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ brew update &amp;amp;&amp;amp; brew install hugo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;step-2-create-a-site:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;Step 2: Create a Site&lt;/h3&gt;
+
+&lt;p&gt;I could then create the skeleton for a new website by running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo new site ~/Sites/my-hugo-website
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;step-3-create-a-new-post:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;Step 3: Create a New Post&lt;/h3&gt;
+
+&lt;p&gt;After navigating to my new website directory I created a new post by running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo new post/ready-set-hugo.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That&amp;rsquo;s less than a minute of effort and I was already writing content for a brand new website!&lt;/p&gt;
+
+&lt;h3 id=&#34;step-4-pick-a-theme:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;Step 4: Pick a Theme&lt;/h3&gt;
+
+&lt;p&gt;The Hugo website has a wide variety of themes available on &lt;a href=&#34;http://themes.gohugo.io&#34;&gt;themes.gethugo.io&lt;/a&gt;. I decided to go with the &lt;a href=&#34;http://themes.gohugo.io/hugo-uno&#34;&gt;Hugo Uno&lt;/a&gt; theme for starters, which I grabbed from Github by running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git clone git@github.com:SenjinDarashiva/hugo-uno.git ./themes/hugo-uno
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;step-5-have-a-peek:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;Step 5: Have a Peek&lt;/h3&gt;
+
+&lt;p&gt;With a theme installed I could then run Hugo server to take a look at my brand spanking new website by running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo server --theme=hugo-uno --buildDrafts
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This command compiles the drafts and then hosts the website locally on an unused port. Hugo will tell you what web address you can visit to access your website once it finishes compiling (which is near instantaneous).&lt;/p&gt;
+
+&lt;p&gt;Behold!&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://richardtoner.github.io/images/ready-set-hugo/hugo-website-preview.png&#34; alt=&#34;My glorious work in progress!&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;h3 id=&#34;step-6-hugo-s-watching-you-wazowski-always-watching:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;Step 6: Hugo&amp;rsquo;s Watching You Wazowski&amp;hellip; Always Watching&amp;hellip;&lt;/h3&gt;
+
+&lt;p&gt;With the Hugo server up and running I kept editing this post, and Hugo simply kept an eye out for any updates, automatically compiling any new changes and instantly showing them to me within my web browser like magic.&lt;/p&gt;
+
+&lt;h3 id=&#34;step-7-hit-publish:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;Step 7: Hit Publish&lt;/h3&gt;
+
+&lt;p&gt;When I finished up writing I then published the blog post by running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo undraft content/post/ready-set-hugo.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;step-8-configure-it-out:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;Step 8: Configure It Out&lt;/h3&gt;
+
+&lt;p&gt;So the blog post was dated, published and ready to put live! Before putting the website live though I wanted to replace all that default stuff such as the site name, description and URL with my own stuff. All this required was for me to open up the &lt;code&gt;config.toml&lt;/code&gt; file in the base directory and populate it with the following information:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;baseurl = &amp;quot;http://richardtoner.github.io&amp;quot;
+languageCode = &amp;quot;en-gb&amp;quot;
+title = &amp;quot;Richard Toner&amp;quot;
+
+[params]
+  description = &amp;quot;A Welshy in London&amp;quot;
+  author = &amp;quot;Richard Toner&amp;quot;
+  github = &amp;quot;richardtoner&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I also changed the default background image by adding an image to &lt;code&gt;./images/background-cover.jpg&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;To see what other default stuff you can change, just take a look at the theme&amp;rsquo;s README.&lt;/p&gt;
+
+&lt;h3 id=&#34;step-9-my-generation:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;Step 9: My Generation&lt;/h3&gt;
+
+&lt;p&gt;The only Hugo-shaped thing left to do at this point was to generate the static content, which I did by running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo --theme=hugo-uno
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;step-10-put-it-somewhere-people-can-see-it:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;Step 10: Put It Somewhere People Can See It&lt;/h3&gt;
+
+&lt;p&gt;The command I ran in the last step placed all the static content in &lt;code&gt;./public&lt;/code&gt;, so I just needed to plop the contents of the directory somewhere where people could see it. I personally chose to host it on &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;, which was as easy as committing all of the public directory contents to my &lt;code&gt;richardtoner.github.io&lt;/code&gt; repository and pushing.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;summary:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;Hugo is a breeze to get up and running with.&lt;/p&gt;
+
+&lt;p&gt;I found it refreshing to approach a new website implementation and having to dedicate very little thought at the technical implementation and design. The majority of my focus has been on &lt;strong&gt;the content&lt;/strong&gt;, which is the most important facet of a website of this nature.&lt;/p&gt;
+
+&lt;p&gt;I plan to explore some of the more advanced features of Hugo soon. I will undoubtedly want to customise this theme or create my own, so I&amp;rsquo;ll probably describe that process in a future blog post.&lt;/p&gt;
+
+&lt;p&gt;If you got this far - thanks for reading my first ever blog post! Hopefully this will be the first of many!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;the-like-list:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;The Like List&lt;/h2&gt;
+
+&lt;p&gt;So this little section is directly inspired by Ryan O&amp;rsquo;Neal aka &lt;a href=&#34;http://www.sleepingatlast.com&#34;&gt;Sleeping At Last&lt;/a&gt;, a brilliant and prolific musician from Illinois who has nailed down the art of a good newsletter.&lt;/p&gt;
+
+&lt;p&gt;Ryan runs a conceptual music subscription service called &lt;strong&gt;&amp;ldquo;Atlas&amp;rdquo;&lt;/strong&gt;, where he releases a song every few weeks complete with individual digital artwork, lyrics and the story behind the writing process of each song. He signs off each email with a list of the things he currently loves, and I look forward to it with each email. We have a great cross-over of interests, but the list also acts as a time capsule that I think serves purpose to him as well as his fans as a reminder of what he was surrounded by at the time of putting together that piece of art. I don&amp;rsquo;t really consider this post to be a piece of art, but I bloody love a good list!&lt;/p&gt;
+
+&lt;p&gt;So here it is:&lt;/p&gt;
+
+&lt;h3 id=&#34;food-olia-hercules:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;&lt;strong&gt;Food:&lt;/strong&gt; Olia Hercules&lt;/h3&gt;
+
+&lt;p&gt;A highly talented Ukrainian chef with a love for everything fermented. We were fortunate to attend her event &lt;strong&gt;Fermented &amp;amp; Wild&lt;/strong&gt;, a celebration feast of fermented food and natural wines. I would not be surprised if they organised more of these in the future, so it&amp;rsquo;s worth giving her a follow on Instagram and keeping your eyes peeled if you&amp;rsquo;re privy to pickles!&lt;/p&gt;
+
+
+  &lt;blockquote class=&#34;instagram-media&#34; data-instgrm-version=&#34;7&#34; style=&#34; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&#34;&gt;&lt;div style=&#34;padding:8px;&#34;&gt; &lt;div style=&#34; background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;&#34;&gt; &lt;div style=&#34; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=&#34; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&#34;&gt;&lt;a href=&#34;https://www.instagram.com/p/BCkte9bFKqy/&#34; style=&#34; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&#34; target=&#34;_blank&#34;&gt;A photo posted by Olia Hercules (@oliahercules)&lt;/a&gt; on &lt;time style=&#34; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&#34; datetime=&#34;2016-03-05T13:49:08+00:00&#34;&gt;Mar 5, 2016 at 5:49am PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src=&#34;//platform.instagram.com/en_US/embeds.js&#34;&gt;&lt;/script&gt;
+
+
+
+&lt;h3 id=&#34;games-rocket-league:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;&lt;strong&gt;Games:&lt;/strong&gt; Rocket League&lt;/h3&gt;
+
+&lt;p&gt;Remember that episode of Top Gear where they played football with cars and it looked like the best thing ever? Well if you throw in some insane physics, a spherical bomb and turbo-powered cars, you are left with Rocket League. It is as awesome as it sounds. Check out the madness in the video below.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/2C9LxNlzeUM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;music-yndi-halda-under-summer:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;&lt;strong&gt;Music:&lt;/strong&gt; yndi halda - Under Summer&lt;/h3&gt;
+
+&lt;p&gt;The wait is over! The long-awaited sophomore release from yndi halda has been 10 years in the making and holds true to the theory that good things come to those that wait. Under Summer is an hour-long musical journey over 4 tracks of beautiful introspective movements that swell to tidal wave-like crescendos. Prepare to get swept away and hit play on the Spotify player below:&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;iframe src=&#34;https://embed.spotify.com/?uri=spotify%3aalbum%3a0ECiAUBuKpQ6sKaKUFFtlu&#34; width=&#34;250&#34; height=&#34;80&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34;&gt;&lt;/iframe&gt;
+
+&lt;/p&gt;
+
+&lt;h3 id=&#34;travel-bristol:aa937d473fc8d63545e4ed2103db6bf2&#34;&gt;&lt;strong&gt;Travel:&lt;/strong&gt; Bristol&lt;/h3&gt;
+
+&lt;p&gt;What better way to enjoy an album that you&amp;rsquo;ve been anticipating for a decade than to take a walk through the city that you first remember falling in love with the band? Bristol has carved a very special place in my heart from the University days, and it was great to experience something so new in a place so familiar.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

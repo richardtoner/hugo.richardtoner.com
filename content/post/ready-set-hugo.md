@@ -1,4 +1,7 @@
 +++
+Categories = ["Code"]
+Description = ""
+Tags = ["Hugo", "GitHub", "Olia Hercules", "Rocket League", "yndi halda", "Bristol"]
 date = "2016-03-14T00:15:04Z"
 draft = false
 title = "Ready... Set... Hugo!"

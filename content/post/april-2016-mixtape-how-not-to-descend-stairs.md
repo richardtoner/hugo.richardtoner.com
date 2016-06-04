@@ -1,7 +1,7 @@
 +++
-Categories = ["Development", "GoLang"]
+Categories = ["Music"]
 Description = ""
-Tags = ["Development", "golang"]
+Tags = ["Monthly Mixtapes", "Young in the City", "Supertramp", "O'Brother", "Joe Hertz", "Copeland", "Rogue Legacy"]
 date = "2016-05-02T19:40:49+01:00"
 menu = "main"
 draft = false
